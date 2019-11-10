@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bookPracConfigServer" />
+        <module name="BookPostServer" />
+        <module name="BookEureka" />
+        <module name="BookRunnerServer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BookEureka" target="1.8" />
+      <module name="BookPostServer" target="1.8" />
+      <module name="bookPracConfigServer" target="1.8" />
+      <module name="BookRunnerServer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BookEureka" options="-parameters" />
+      <module name="BookPostServer" options="-parameters" />
+      <module name="BookRunnerServer" options="-parameters" />
+      <module name="bookPracConfigServer" options="-parameters" />
+    </option>
+  </component>
+</project>

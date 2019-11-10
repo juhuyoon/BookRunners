@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BookEureka/BookEureka.iml" filepath="$PROJECT_DIR$/BookEureka/BookEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookPostServer/BookPostServer.iml" filepath="$PROJECT_DIR$/BookPostServer/BookPostServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookRunnerServer/BookRunnerServer.iml" filepath="$PROJECT_DIR$/BookRunnerServer/BookRunnerServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BookRunners.iml" filepath="$PROJECT_DIR$/.idea/BookRunners.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookPracConfigServer/bookPracConfigServer.iml" filepath="$PROJECT_DIR$/bookPracConfigServer/bookPracConfigServer.iml" />
+    </modules>
+  </component>
+</project>
